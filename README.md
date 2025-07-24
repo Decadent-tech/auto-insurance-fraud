@@ -2,10 +2,8 @@
 
 This project identifies potentially fraudulent auto insurance claims using machine learning techniques. It includes data preprocessing, exploratory data analysis (EDA), model building, evaluation, and a final comparison of various classifiers.
 
----
-
 ## 📂 Project Structure
-AUTO_INSURANCE_CLAIMS/ 
+AUTO_INSURANCE_CLAIMS/
 ├── dataset/ 
 │ └── insurance_claims (1).csv 
 ├── EDA/ 
@@ -98,7 +96,7 @@ python models.py
 python app.py
 
 ## 💡 Try a Known Fraud Case
-Access: /fraudtest
+Access: http://127.0.0.1:5000/fraudtest
 
 ## ⚙️ Dependencies
 pandas, numpy, matplotlib, seaborn
