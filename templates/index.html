@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insurance Fraud Prediction</title>
+</head>
+<body>
+    <h2>Enter Claim Details</h2>
+    <form method="post" action="/predict">
+        Feature1: <input type="text" name="feature1"><br><br>
+        Feature2: <input type="text" name="feature2"><br><br>
+        Feature3: <input type="text" name="feature3"><br><br>
+        Feature4: <input type="text" name="feature4"><br><br>
+        Feature5: <input type="text" name="feature5"><br><br>
+        Feature6: <input type="text" name="feature6"><br><br>
+        Feature7: <input type="text" name="feature7"><br><br>
+        Feature8: <input type="text" name="feature8"><br><br>
+        Feature9: <input type="text" name="feature9"><br><br>
+        Feature10: <input type="text" name="feature10"><br><br>
+        Feature11: <input type="text" name="feature11"><br><br>
+        Feature12: <input type="text" name="feature12"><br><br>
+        Feature13: <input type="text" name="feature13"><br><br>
+        Feature14: <input type="text" name="feature14"><br><br>
+        Feature15: <input type="text" name="feature15"><br><br>
+        Feature16: <input type="text" name="feature16"><br><br>
+        Feature17: <input type="text" name="feature17"><br><br>
+        Feature18: <input type="text" name="feature18"><br><br>
+        Feature19: <input type="text" name="feature19"><br><br>
+        Feature20: <input type="text" name="feature20"><br><br>
+        Feature21: <input type="text" name="feature21"><br><br>
+        Feature22: <input type="text" name="feature22"><br><br>
+        Feature23: <input type="text" name="feature23"><br><br> 
+        Feature24: <input type="text" name="feature24"><br><br>
+        Feature25: <input type="text" name="feature25"><br><br>
+        Feature26: <input type="text" name="feature26"><br><br>
+        Feature27: <input type="text" name="feature27"><br><br>
+        Feature28: <input type="text" name="feature28"><br><br>
+        Feature29: <input type="text" name="feature29"><br><br>
+        Feature30: <input type="text" name="feature30"><br><br>
+        Feature31: <input type="text" name="feature31"><br><br>
+        Feature32: <input type="text" name="feature32"><br><br>
+        Feature33: <input type="text" name="feature33"><br><br>
+        Feature34: <input type="text" name="feature34"><br><br>
+        Feature35: <input type="text" name="feature35"><br><br>
+        Feature36: <input type="text" name="feature36"><br><br>
+        Feature37: <input type="text" name="feature37"><br><br>
+        Feature38: <input type="text" name="feature38"><br><br>
+        Feature39: <input type="text" name="feature39"><br><br>
+        Feature40: <input type="text" name="feature40"><br><br>
+        Feature41: <input type="text" name="feature41"><br><br>
+        Feature42: <input type="text" name="feature42"><br><br>
+        Feature43: <input type="text" name="feature43"><br><br>
+        Feature44: <input type="text" name="feature44"><br><br>
+        Feature45: <input type="text" name="feature45"><br><br>
+        Feature46: <input type="text" name="feature46"><br><br>
+        Feature47: <input type="text" name="feature47"><br><br>
+        Feature48: <input type="text" name="feature48"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h3>Prediction: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
