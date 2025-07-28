@@ -54,6 +54,24 @@ AUTO_INSURANCE_CLAIMS/
   - Extra Trees
   - Voting Classifier
 
+## 📊 Statistic Card
+
+    ## 📊 EDA Walkthrough in Dataiku
+
+          This project uses [Dataiku DSS](https://www.dataiku.com/) for performing visual EDA on the insurance claims dataset.
+
+🎥 **Watch the demo video of the EDA:**
+
+👉 [Click here to watch the video on Google Drive](https://drive.google.com/file/d/1pZFM_KTOm27rEQG9MIAsQ8TSYOVZ50xn/view?usp=sharing)
+
+
+### 🔍 What it covers:
+- Automatic variable profiling
+- Bivariate analysis using mosaic plots
+- Fraud detection feature insights
+- Dataset exploration and filtering in DSS
+
+
 ## 🧪 Results
 
 All models were evaluated based on **test accuracy** and **confusion matrices**. Below is a comparison of model performances:
